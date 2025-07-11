@@ -1,0 +1,93 @@
+
+# Puente Condell: Memoria Proyectada
+
+## 🎯 Descripción General
+
+**Puente Condell: Memoria Proyectada** es una instalación audiovisual que reconstruye la historia del entorno del río Mapocho bajo el Puente Condell en Santiago de Chile. A través de proyecciones conceptuales en su base, se reaniman memorias sociales, políticas y culturales, desde la década de 1940 hasta el 2020, abordando temas como protestas, violencia, marginalidad, migración y transformación urbana.
+
+## 🎥 Concepto
+
+La propuesta utiliza **sombras animadas proyectadas** para representar escenas clave a lo largo del tiempo. Estas proyecciones no muestran eventos de forma literal, sino mediante siluetas simbólicas que evocan la atmósfera de cada época, instalando así una reflexión poética sobre la memoria urbana y su permanencia en los márgenes.
+
+## 🧠 Contexto Teórico
+
+- El proyecto se sitúa en la intersección entre **arte urbano, memoria colectiva** y **visualización crítica**.
+- Se inspira en el uso del espacio público como soporte narrativo.
+- Toma referentes de instalaciones audiovisuales, mapping, teatro de sombras y archivo histórico.
+- Utiliza elementos de la **cibernética del diseño** y del **diseño especulativo** para crear una interfaz simbólica de interacción.
+
+## 🧩 Escenas Históricas Incluidas
+
+1. Solo el Mapocho (1940) ✅  
+2. Construcción inicial del puente (1950) ❓  
+3. Reparación estructural (1960) ❓  
+4. Regatas universitarias (1965) ✅  
+5. Bromas de ahorcados universitarios (1965) ⏳  
+6. Construcción de la iluminación (1980) ✅  
+7. Marcha del “No” con canto “Porque diga lo que diga...” (1988) ✅  
+8. Robos en la noche (1990) ✅  
+9. Candados del amor (2000–2010) ⏳  
+10. Retiro de candados por sobrepeso (2018) ❓  
+11. Muñecos colgando (2018) ⏳  
+12. Marchas del estallido social (2019) ⏳  
+13. Carpas y consumo de drogas bajo el puente (2019–2021) ✅  
+
+## 🛠️ Proceso Técnico
+
+### 🧱 Modelado y Animación 3D
+- Software: **Blender**
+- Se realizaron modelados de entorno urbano, personajes, elementos simbólicos (candados, fogatas, pancartas).
+- Uso de materiales texturizados tipo cemento envejecido.
+- Iluminación direccional tipo "sol" para sombras realistas.
+- Renderizado en formato secuencia y video (.mp4).
+
+### 🎛️ Proyección e Interacción
+- Software: **MadMapper 5.0**
+- Integración con control OSC.
+- Diseño de interfaz de control para escenas.
+- Comunicación establecida vía **Python (Flask + python-osc)**.
+
+### 📷 Visión Computacional
+- Detección de personas en tiempo real mediante **OpenCV**.
+- División de cámara en cuadrantes: cada cuadrante activa una escena distinta según la presencia de personas.
+
+### 🌐 Interfaz Digital
+- Interfaz HTML desarrollada para debug/control local.
+- Comunicación vía WebSocket o HTTP con servidor Python.
+
+## 🧪 Ejecución del Prototipo
+
+1. Servidor Python activo en red local.
+2. MadMapper escucha señales OSC en el puerto 8010.
+3. Usuario se mueve frente a la cámara, se detecta la posición.
+4. Python interpreta la zona y envía señal a MadMapper.
+5. MadMapper cambia de escena proyectada.
+
+## 🔊 Sonido
+
+- Cada escena incluye **paisajes sonoros realistas**: agua, viento, gritos de protesta, pájaros o fuego según la escena.
+- Audios obtenidos de bibliotecas de stock gratuitas como [Freesound.org](https://freesound.org) y [Pixabay Audio](https://pixabay.com/sound-effects/).
+
+## 🗂️ Estructura del Repositorio
+
+```
+PuenteCondell_MemoriaProyectada/
+├── blender_scenes/        # Archivos .blend y renders
+├── madmapper/             # Presets y archivos de proyecto MadMapper
+├── python_server/         # Código para comunicación OSC y visión computacional
+├── interface/             # HTML, CSS y JS para interfaz de control
+├── audio/                 # Clips de sonido utilizados
+├── docs/                  # Láminas y textos de apoyo
+└── README.md
+```
+
+## 📚 Créditos y Agradecimientos
+
+- Proyecto desarrollado por **Emilio Abarca**  
+- Carrera: **Diseño en Interacción Digital** – Universidad del Desarrollo  
+- Asesoría técnica: Profs. de Fabricación Digital, Computación Física y Diseño Interactivo  
+- Software libre y herramientas utilizadas: Blender, Python, MadMapper, OpenCV, Audacity, HTML/CSS/JS
+
+---
+
+> “Las ciudades también sueñan. Este proyecto proyecta esas sombras que persisten bajo el concreto.”
