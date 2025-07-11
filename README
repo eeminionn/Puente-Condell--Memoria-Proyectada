@@ -65,6 +65,43 @@ Inspirado por esta lógica de navegación entre capas narrativas, el presente pr
 3. Python interpreta la zona y envía señal a RESOLUME.
 5. RESOLUME cambia de escena proyectada.
 
+## 📷 Fotografías del proceso y recursos visuales
+
+<figure>
+  <img src="fotos/grafiti1.png" width="200" />
+  <img src="fotos/grafiti2.png" width="200" />
+  <img src="fotos/grafiti3.png" width="200" />
+  <img src="fotos/grafiti4.png" width="200" />
+  <img src="fotos/grafiti5.png" width="200" />
+  <figcaption>Modelos 3D de grafitis obtenidos con fotogrametría.</figcaption>
+</figure>
+
+<figure>
+  <img src="fotos/p1.png" width="200" />
+  <img src="fotos/p2.png" width="200" />
+  <figcaption>Prototipos del tambor metálico intervenido para proyección.</figcaption>
+</figure>
+
+<figure>
+  <img src="fotos/p4.png" width="200" />
+  <img src="fotos/p5.png" width="200" />
+  <img src="fotos/p6.png" width="200" />
+  <img src="fotos/p7.png" width="200" />
+  <figcaption>Texturas y referencias de muros intervenidos.</figcaption>
+</figure>
+
+<figure>
+  <img src="fotos/t1.png" width="200" />
+  <img src="fotos/t2.png" width="200" />
+  <img src="fotos/t3.png" width="200" />
+  <img src="fotos/t6.png" width="200" />
+  <img src="fotos/t8.png" width="200" />
+  <figcaption>Texturas urbanas utilizadas en las escenas.</figcaption>
+</figure>
+
+---
+
+
 ## 🔊 Sonido
 
 - Cada escena incluye **paisajes sonoros realistas**: agua, viento, gritos de protesta, pájaros o fuego según la escena.
