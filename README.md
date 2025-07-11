@@ -92,8 +92,8 @@ Inspirado por esta lógica de navegación entre capas narrativas, el presente pr
 <img src="fotos/t1.jpg" alt="Textura 1" width="200"/>
 <img src="fotos/t2.jpg" alt="Textura 2" width="200"/>
 <img src="fotos/t3.jpg" alt="Textura 3" width="200"/>
-<img src="fotos/t6.jpg" alt="Textura 4" width="200"/>
-<img src="fotos/t8.jpg" alt="Textura 5" width="200"/>
+<img src="fotos/t6 .jpg" alt="Textura 4" width="200"/>
+<img src="fotos/t8 .jpg" alt="Textura 5" width="200"/>
 
 
 
