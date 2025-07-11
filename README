@@ -42,7 +42,7 @@ La propuesta utiliza **sombras animadas proyectadas** para representar escenas c
 - Renderizado en formato secuencia y video (.mp4).
 
 ### 🎛️ Proyección e Interacción
-- Software: **MadMapper 5.0**
+- Software: **RESOLUME**
 - Integración con control OSC.
 - Diseño de interfaz de control para escenas.
 - Comunicación establecida vía **Python (Flask + python-osc)**.
