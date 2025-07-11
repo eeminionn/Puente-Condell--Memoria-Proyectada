@@ -65,10 +65,85 @@ Inspirado por esta lógica de navegación entre capas narrativas, el presente pr
 3. Python interpreta la zona y envía señal a RESOLUME.
 5. RESOLUME cambia de escena proyectada.
 
+## 🖼️ Fotografías del proceso y recursos visuales
+
+**Modelos 3D de grafitis obtenidos con fotogrametría:**
+
+<img src="fotos/grafiti1.png" width="200"/>
+<img src="fotos/grafiti2.png" width="200"/>
+<img src="fotos/grafiti3.png" width="200"/>
+<img src="fotos/grafiti4.png" width="200"/>
+<img src="fotos/grafiti5.png" width="200"/>
+
+**Prototipos del tambor metálico intervenido para proyección:**
+
+<img src="fotos/p1.png" width="200"/>
+<img src="fotos/p2.png" width="200"/>
+
+**Texturas y referencias de muros intervenidos:**
+
+<img src="fotos/p4.png" width="200"/>
+<img src="fotos/p5.png" width="200"/>
+<img src="fotos/p6.png" width="200"/>
+<img src="fotos/p7.png" width="200"/>
+
+**Texturas urbanas utilizadas en las escenas:**
+
+<img src="fotos/t1.png" width="200"/>
+<img src="fotos/t2.png" width="200"/>
+<img src="fotos/t3.png" width="200"/>
+<img src="fotos/t6.png" width="200"/>
+<img src="fotos/t8.png" width="200"/>
+
+
+
 ## 🔊 Sonido
 
 - Cada escena incluye **paisajes sonoros realistas**: agua, viento, gritos de protesta, pájaros o fuego según la escena.
 - Audios obtenidos de bibliotecas de stock gratuitas como [Freesound.org](https://freesound.org) y [Pixabay Audio](https://pixabay.com/sound-effects/).
+
+# Descripción de Escenas – Puente Condell: Memoria Proyectada
+
+Este documento contiene una descripción conceptual y narrativa de cada una de las escenas proyectadas en el proyecto audiovisual interactivo "Puente Condell: Memoria Proyectada".
+
+---
+
+## ✅ Escena 1: Solo el Mapocho – 1940
+Una proyección de sombras abstractas muestra la silueta del Mapocho. 
+
+---
+
+## ✅ Escena 2: Regatas Universitarias – 1965
+Se proyectan sombras de botes remando en conjunto, evocando las tradicionales regatas de estudiantes universitarios en el río. Las figuras se coordinan rítmicamente, remarcando el espíritu deportivo y académico de la época.
+
+---
+
+## ⏳ Escena 3: Bromas de suicidio universitarios – 1965
+Sombras suspendidas representan los cuerpos ficticios utilizados por estudiantes en protestas o bromas. El tono es ambiguo, entre lo lúdico y lo inquietante. Las sombras cuelgan en silencio desde la estructura del puente.
+
+---
+
+## ✅ Escena 4: Construcción de iluminación del puente – 1980
+La escena muestra siluetas de trabajadores instalando focos y postes, iluminando progresivamente el espacio. Las sombras de escaleras y herramientas acompañan el gesto de modernización nocturna del puente.
+
+---
+
+## ✅ Escena 5: Joven en marcha del “No” cantando – 1988
+Una figura juvenil proyecta su sombra caminando con determinación, mientras en su mano se eleva un cartel con la frase “Porque diga lo que diga, yo soy libre de pensar”. Se alude a las manifestaciones contra la dictadura de Pinochet.
+
+---
+
+## ✅ Escena 6: Robos en la noche – 1990
+Siluetas rápidas y tensas cruzan la escena: una persona se acerca sigilosamente a otra, en un gesto de asalto. Las sombras se proyectan de forma parcial y fragmentada, insinuando el carácter clandestino del acto.
+
+---
+
+
+## ✅ Escena 7: Carpas y droga bajo el puente – 2019–2021
+Una sombra estática muestra una tienda de campaña mal armada, mientras figuras humanas se desplazan en actitud errática a su alrededor. Proyección sombría y lenta que refleja marginalidad y abandono urbano.
+
+---
+
 
 ## 🗂️ Estructura del Repositorio
 
