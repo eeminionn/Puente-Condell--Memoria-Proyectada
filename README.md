@@ -77,15 +77,15 @@ Inspirado por esta lógica de navegación entre capas narrativas, el presente pr
 
 ### Prototipos del tambor metálico intervenido para proyección
 
-<img src="fotos/p1.jpg" alt="Tambor pintado" width="200"/>
-<img src="fotos/p2.jpg" alt="Tambor negro" width="200"/>
+<img src="fotos/p1 .jpg" alt="Tambor pintado" width="200"/>
+<img src="fotos/p2 .jpg" alt="Tambor negro" width="200"/>
 
 ### Texturas y referencias de muros intervenidos
 
-<img src="fotos/p4.jpg" alt="Muro intervenido 1" width="200"/>
-<img src="fotos/p5.jpg" alt="Muro intervenido 2" width="200"/>
-<img src="fotos/p6.jpg" alt="Muro intervenido 3" width="200"/>
-<img src="fotos/p7.jpg" alt="Muro intervenido 4" width="200"/>
+<img src="fotos/p4 .jpg" alt="Muro intervenido 1" width="200"/>
+<img src="fotos/p5 .jpg" alt="Muro intervenido 2" width="200"/>
+<img src="fotos/p6 .jpg" alt="Muro intervenido 3" width="200"/>
+<img src="fotos/p7 .jpg" alt="Muro intervenido 4" width="200"/>
 
 ### Texturas urbanas utilizadas en las escenas
 
