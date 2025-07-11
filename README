@@ -47,21 +47,23 @@ La propuesta utiliza **sombras animadas proyectadas** para representar escenas c
 - Diseño de interfaz de control para escenas.
 - Comunicación establecida vía **Python (Flask + python-osc)**.
 
-### 📷 Visión Computacional
-- Detección de personas en tiempo real mediante **OpenCV**.
-- División de cámara en cuadrantes: cada cuadrante activa una escena distinta según la presencia de personas.
-
 ### 🌐 Interfaz Digital
 - Interfaz HTML desarrollada para debug/control local.
 - Comunicación vía WebSocket o HTTP con servidor Python.
 
+### 🧠 Inspiración y Estado del Arte
+
+Una de las principales referencias para este proyecto es la obra **"The Visitors" (2012)** del artista islandés **Ragnar Kjartansson**, expuesta en el SFMOMA y otros museos del mundo. Esta instalación de video multicanal presenta a músicos tocando una composición en vivo desde habitaciones separadas dentro de una casa, grabados simultáneamente y proyectados en pantallas independientes que rodean al espectador. La posibilidad de enfocarse en distintas escenas según la posición o la intención del visitante genera una experiencia fragmentada, íntima y altamente emocional. 
+
+Inspirado por esta lógica de navegación entre capas narrativas, el presente proyecto incorpora una **interfaz HTML** que permite activar escenas específicas de forma puntual, otorgando al espectador cierto grado de agencia sobre la narrativa y replicando la experiencia de recorrer una memoria distribuida en el espacio.
+
+
 ## 🧪 Ejecución del Prototipo
 
 1. Servidor Python activo en red local.
-2. MadMapper escucha señales OSC en el puerto 8010.
-3. Usuario se mueve frente a la cámara, se detecta la posición.
-4. Python interpreta la zona y envía señal a MadMapper.
-5. MadMapper cambia de escena proyectada.
+2. RESOLUME escucha señales OSC en el puerto 8010.
+3. Python interpreta la zona y envía señal a RESOLUME.
+5. RESOLUME cambia de escena proyectada.
 
 ## 🔊 Sonido
 
