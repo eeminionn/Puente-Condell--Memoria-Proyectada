@@ -67,7 +67,7 @@ Inspirado por esta lógica de navegación entre capas narrativas, el presente pr
 
 ## 🖼️ Fotografías del proceso y recursos visuales
 
-### Modelos 3D de grafitis obtenidos con fotogrametría
+### Modelos 3D de grafitis (texturas para las animaciones)
 
 <img src="fotos/grafiti1.png" alt="Grafiti 1" width="200"/>
 <img src="fotos/grafiti2.png" alt="Grafiti 2" width="200"/>
